@@ -89,9 +89,8 @@ var letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
 app.use(cors({ origin: '*' }));
 app.use(fileUpload());
 
-app.listen(3000, () => {
-    console.log('The server started on port 3000');
-});
+let port = process.env.PORT || 3000;
+app.listen(port);
 
 app.post('/file', (req, res) => {
   const file = req.file || req.files;

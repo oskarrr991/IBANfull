@@ -20,6 +20,8 @@ export class AppComponent implements OnInit {
   ngOnInit() {}
 
   getValue(ibanNr) {
+    console.log('done');
+
     this.fileService.checkSingleIBAN(ibanNr).then((response) => {
       if (response) {
         this.answer = true;

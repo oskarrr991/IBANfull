@@ -1,0 +1,15 @@
+.formfield {
+    width:350px;
+}
+h1, .main {
+    text-align: center;
+}
+.main {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+#inputFILE {
+    display: none;
+}
