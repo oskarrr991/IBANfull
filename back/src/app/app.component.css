@@ -1,0 +1,9 @@
+.formfield {
+    width:400px !important;
+}
+h1, .main {
+    text-align: center;
+}
+#inputFILE {
+    display: none;
+}
