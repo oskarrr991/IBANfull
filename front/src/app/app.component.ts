@@ -39,6 +39,7 @@ export class AppComponent implements OnInit {
           str: 'Your IBAN is valid'
         }
       });
+      this.answer = false;
     } else {
       this._dialog.open(DialogComponent, {
         data: {

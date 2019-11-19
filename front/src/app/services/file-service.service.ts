@@ -24,4 +24,3 @@ export class FileService {
     return this._http.delete<string>('https://iban2.herokuapp.com/delete').toPromise();
   }
 }
-// change 'https://iban2.herokuapp.com' to 'https://localhost:3000' if you wish to run the project locally
